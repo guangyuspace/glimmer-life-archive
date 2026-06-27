@@ -2,7 +2,7 @@ const CONFIG = {
   registryUrl: "../stories/stories.json",
   endingAudioUrl: "../audio/piano_ending.ogg",
   threeModuleUrl: "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
-  storySubmissionUrl: "https://www.threads.net/@seruence_decipher",
+  storySubmissionUrl: "https://www.threads.com/@sequence_decipher/post/DaGLBlDk2wv?xmt=AQG0faSW_PjmGVgk2x5q2ppXS1BGRpCsoXumdnXMM85-yMo9jGTk7gnrmvRXsdDiRMbN402n&slof=1",
   progressStorageKey: "glimmer_archive_progress_v1",
   typewriterCharactersPerSecond: 28,
   holdSeconds: 1.5,

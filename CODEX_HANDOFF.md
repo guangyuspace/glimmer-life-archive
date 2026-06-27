@@ -45,7 +45,7 @@
 - 重新設計故事播放互動 UI：新增幕數進度列、hold 面板光暈、wipe 擦拭軌跡、互動提示 ready 狀態。
 - 新增 `web/qa-three-render.mjs`，用 headless Edge/CDP 驗證 Three canvas 非空、動畫 frame 增加、pointermove 有反應，並輸出手機/桌面 archive 截圖與手機 story 截圖。
 - 更新結尾文案，主角描述改為「作者的外公」，並將 CTA 文案改為「留下你的故事」。
-- 新增 `CONFIG.storySubmissionUrl` 與 `openStorySubmission()`，`留下你的故事` 會開新分頁到 `https://www.threads.net/@seruence_decipher`。
+- 新增 `CONFIG.storySubmissionUrl` 與 `openStorySubmission()`，`留下你的故事` 會開新分頁到 `https://www.threads.com/@sequence_decipher/post/DaGLBlDk2wv?xmt=AQG0faSW_PjmGVgk2x5q2ppXS1BGRpCsoXumdnXMM85-yMo9jGTk7gnrmvRXsdDiRMbN402n&slof=1`。
 - 新增 GitHub Pages 根入口 `index.html` 與 `.nojekyll`，根網址會跳到 `web/`。
 - 建立公開 GitHub repo `guangyuspace/glimmer-life-archive`，啟用 GitHub Pages。
 

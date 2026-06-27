@@ -27,7 +27,7 @@
 - Headless Edge Three.js QA at 390x844: passed; WebGL canvas was nonblank, animation frames advanced, pointer movement updated Three state, and mobile/desktop screenshots were generated.
 - Headless Edge story UI QA: passed; starting the story renders scene progress, prompt text, and mobile story screenshot.
 - Ending copy updated to identify the protagonist as the author's grandfather.
-- Ending CTA button text updated to `留下你的故事`; Threads URL points to `https://www.threads.net/@seruence_decipher`.
+- Ending CTA button text updated to `留下你的故事`; Threads URL points to `https://www.threads.com/@sequence_decipher/post/DaGLBlDk2wv?xmt=AQG0faSW_PjmGVgk2x5q2ppXS1BGRpCsoXumdnXMM85-yMo9jGTk7gnrmvRXsdDiRMbN402n&slof=1`.
 - Mobile portrait layout updated so story panels use full-image containment instead of crop-to-fill.
 - Story panel CSS now uses a 9:16 portrait frame with `object-fit: contain` foreground art and a soft blurred background fill.
 

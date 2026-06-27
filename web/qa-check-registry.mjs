@@ -114,7 +114,7 @@ if (!appJs.includes("他是作者的外公")) {
 if (!appJs.includes("storySubmissionUrl")) {
   fail("app.js must expose a story submission URL setting");
 }
-if (!appJs.includes("https://www.threads.net/@seruence_decipher")) {
+if (!appJs.includes("https://www.threads.com/@sequence_decipher/post/DaGLBlDk2wv?xmt=AQG0faSW_PjmGVgk2x5q2ppXS1BGRpCsoXumdnXMM85-yMo9jGTk7gnrmvRXsdDiRMbN402n&slof=1")) {
   fail("app.js must wire the Threads story submission URL");
 }
 if (!appJs.includes("openStorySubmission")) {
