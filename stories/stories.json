@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "stories": [
+    {
+      "id": "story_001",
+      "title": "撐傘的人",
+      "protagonist": "外公",
+      "period": "1936-2025",
+      "path": "../stories/story_001/story_001.json",
+      "panelBasePath": "../art/panels_v2/",
+      "fallbackPanelBasePath": "../stories/story_001/",
+      "cover": "../art/panels_v2/panel_013.png",
+      "summary": "走過戰火、離散、家庭與告別的一生。"
+    }
+  ]
+}

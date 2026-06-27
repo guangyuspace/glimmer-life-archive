@@ -1,0 +1,134 @@
+{
+  "id": "story_001",
+  "title": "撐傘的人",
+  "protagonist": "外公",
+  "image_base_path": "res://stories/story_001/",
+  "scenes": [
+    {
+      "chapter": "第一章：戰火下的啼哭與荒謬",
+      "image": "res://stories/story_001/panel_001.png",
+      "text": "我的童年很早就沒有了母親的溫度。\n搖籃還在，抱我的人卻不在了。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第一章：戰火下的啼哭與荒謬",
+      "image": "res://stories/story_001/panel_002.png",
+      "text": "那年村子裡來了日本兵，大人說他們是鬼子。\n可有一次我發了高燒，是一個日本軍醫救了我，還塞給我一顆糖。",
+      "interaction": "hold",
+      "ending": false
+    },
+    {
+      "chapter": "第一章：戰火下的啼哭與荒謬",
+      "image": "res://stories/story_001/panel_003.png",
+      "text": "長大後我才明白，戰火裡的善惡，有時候比歷史課本寫的還要模糊。\n那顆糖很甜，但它治不好的，是時代生下的病。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第二章：美援中斷與墳墓上的高燒",
+      "image": "res://stories/story_001/panel_004.png",
+      "text": "因為我年紀小、眼睛亮，長官讓我當機槍手。\n大兵們幫我扛著笨重的鐵傢伙，我負責扣扳機。",
+      "interaction": "hold",
+      "ending": false
+    },
+    {
+      "chapter": "第二章：美援中斷與墳墓上的高燒",
+      "image": "res://stories/story_001/panel_005.png",
+      "text": "某一天，身邊拍過我肩膀的大哥突然倒下了，再也沒有站起來。\n血濺在泥土上，我才知道，人原來可以在一瞬間消失。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第二章：美援中斷與墳墓上的高燒",
+      "image": "res://stories/story_001/panel_006.png",
+      "text": "後來，聽說美國人不幫忙了。\n沒油的車、沒子彈的槍，沿路丟得像垃圾一樣。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第二章：美援中斷與墳墓上的高燒",
+      "image": "res://stories/story_001/panel_007.png",
+      "text": "撤退的路上我發了高燒，倒在路邊的野墳堆裡睡了一夜。\n冷風吹醒我時，天亮了，部隊走遠了。我哭著拔腿狂奔。\n那一晚，我是在死人堆裡，向天偷回了一條命。",
+      "interaction": "hold",
+      "ending": false
+    },
+    {
+      "chapter": "第三章：馬祖的手術刀與營區那隻土狗",
+      "image": "res://stories/story_001/panel_008.png",
+      "text": "命運總愛捉弄人。以前師長一句話就能升少尉，到了我，卻得硬著頭皮去讀軍校。\n我成了軍醫。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第三章：馬祖的手術刀與營區那隻土狗",
+      "image": "res://stories/story_001/panel_009.png",
+      "text": "在馬祖的那天，海浪大得像要吞了小島，傷員快沒氣了，等不到台灣的船。\n我咬著牙，拿起手術刀——那是我第一次跟閻王搶人。",
+      "interaction": "hold",
+      "ending": false
+    },
+    {
+      "chapter": "第三章：馬祖的手術刀與營區那隻土狗",
+      "image": "res://stories/story_001/panel_010.png",
+      "text": "幸好，我搶贏了。\n後來當副連長，我在營區養了一隻土狗，那是我在冰冷軍營裡唯一的慰藉。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第三章：馬祖的手術刀與營區那隻土狗",
+      "image": "res://stories/story_001/panel_011.png",
+      "text": "但牠被連長殺來吃了。我恨了他一輩子。\n可沒想到，他退伍才幾個月，就因為肝病死了。\n我看著空蕩蕩的狗碗，突然覺得人這一生，爭來爭去，到底圖個什麼？",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第四章：解嚴、哥哥、以及你的出生",
+      "image": "res://stories/story_001/panel_012.png",
+      "text": "1987 年，台灣解嚴了。我終於回到了江西。\n父母的墳頭長滿了草，家裡，只剩下哥哥還活著。\n我們分開時還是少年，再見面，都已經是老頭子了。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第四章：解嚴、哥哥、以及你的出生",
+      "image": "res://stories/story_001/panel_013.png",
+      "text": "命運把我的後半生留在了這座島嶼。\n1995 年我六十歲生日那天，大女兒生了個大兒子。\n我抱著剛滿月的他，看著他小小的眼睛，那是我這輩子收過最好的生日禮物。",
+      "interaction": "hold",
+      "ending": false
+    },
+    {
+      "chapter": "第四章：解嚴、哥哥、以及你的出生",
+      "image": "res://stories/story_001/panel_014.png",
+      "text": "我就一個人帶著他和妹妹。\n看著他們在客廳爬、牽著他們去幼稚園。\n那幾年，是我這輩子過得最安靜、最幸福的日子。\n直到他們搬去高雄，屋子又冷清了下來。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第五章：SARS 的遺憾、失智與終局",
+      "image": "res://stories/story_001/panel_015.png",
+      "text": "2003 年，一場叫 SARS 的瘟疫，切斷了回家的路。\n哥哥在江西病危，我卻只能對著電話流淚。\n到死，我都沒能再見他一面。",
+      "interaction": "wipe",
+      "ending": false
+    },
+    {
+      "chapter": "第五章：SARS 的遺憾、失智與終局",
+      "image": "res://stories/story_001/panel_016.png",
+      "text": "後來，我的腦子好像變成了一個漏水的漏勺。\n我開始忘記事情，忘記了馬祖的海風，忘記了鋼鐵廠的喧囂。\n有時候，連身邊的老伴和大兒子，我都叫不出名字了。",
+      "interaction": "wipe",
+      "ending": false
+    },
+    {
+      "chapter": "第五章：SARS 的遺憾、失智與終局",
+      "image": "res://stories/story_001/panel_017.png",
+      "text": "大兒子的身體也越來越差，把我送進了機構。\n我不怪他，我知道，這雙手，真的抱不動我了。",
+      "interaction": "tap",
+      "ending": false
+    },
+    {
+      "chapter": "第五章：SARS 的遺憾、失智與終局",
+      "image": "res://stories/story_001/panel_018.png",
+      "text": "2025 年 12 月 18 日，風很冷。\n我知道我要走了。\n我這一生，走過戰火，躺過墳墓，救過人，也被人救過。\n我不遺憾了。孩子，外公要去跟媽媽和哥哥團聚了。\n這座島嶼的雨，以後就由你們自己撐傘了。",
+      "interaction": "tap",
+      "ending": true
+    }
+  ]
+}
