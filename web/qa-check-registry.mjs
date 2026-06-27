@@ -68,6 +68,9 @@ if (!indexHtml.includes("archive-art")) {
 if (!indexHtml.includes("archiveThree")) {
   fail("index.html must include the Three.js archive canvas");
 }
+if (!indexHtml.includes("archiveWriteStoryButton")) {
+  fail("index.html must include the archive story submission button");
+}
 if (!indexHtml.includes("scene-progress")) {
   fail("index.html must include the story scene progress UI");
 }
@@ -119,6 +122,9 @@ if (!appJs.includes("https://www.threads.com/@sequence_decipher/post/DaGLBlDk2wv
 }
 if (!appJs.includes("openStorySubmission")) {
   fail("app.js must wire the story submission button");
+}
+if (!appJs.includes("archiveWriteStoryButton.addEventListener(\"click\", openStorySubmission)")) {
+  fail("archive story submission button must open the Threads URL");
 }
 
 const registry = await readJson(path.join(rootDir, "stories", "stories.json"));

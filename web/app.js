@@ -57,6 +57,7 @@ const nodes = {
   archiveError: $("#archiveError"),
   memoryOrb: $("#memoryOrb"),
   startRandomButton: $("#startRandomButton"),
+  archiveWriteStoryButton: $("#archiveWriteStoryButton"),
   experienceCount: $("#experienceCount"),
   experienceList: $("#experienceList"),
   storyStage: $("#storyStage"),
@@ -120,6 +121,7 @@ async function init() {
 
   nodes.memoryOrb.addEventListener("click", startRandomStory);
   nodes.startRandomButton.addEventListener("click", startRandomStory);
+  nodes.archiveWriteStoryButton.addEventListener("click", openStorySubmission);
   nodes.archiveScreen.addEventListener("pointermove", onArchivePointerMove);
   nodes.returnArchiveButton.addEventListener("click", returnToArchive);
   nodes.writeStoryButton.addEventListener("click", openStorySubmission);

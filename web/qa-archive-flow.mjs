@@ -95,6 +95,7 @@ const ids = [
   "archiveError",
   "memoryOrb",
   "startRandomButton",
+  "archiveWriteStoryButton",
   "experienceCount",
   "experienceList",
   "storyStage",
