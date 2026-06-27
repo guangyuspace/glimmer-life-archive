@@ -21,6 +21,20 @@ py -3 -m http.server 5173 --bind 127.0.0.1
 http://127.0.0.1:5173/web/
 ```
 
+## 線上版本
+
+GitHub Pages:
+
+```text
+https://guangyuspace.github.io/glimmer-life-archive/
+```
+
+Repository:
+
+```text
+https://github.com/guangyuspace/glimmer-life-archive
+```
+
 ## 目前流程
 
 啟動後會進入生命檔案館。玩家按「開始」後，系統會從 `stories.json` 中隨機挑選一個尚未參與過的故事。

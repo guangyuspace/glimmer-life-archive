@@ -7,7 +7,14 @@
 ## Current Phase
 
 - Phase: Web MVP rebuild
-- Status: Multi-story registry, experience replay flow, mobile portrait story layout, generated archive art, Three.js archive animation, and improved story interaction UI are implemented; ready for manual browser QA.
+- Status: Multi-story registry, experience replay flow, mobile portrait story layout, generated archive art, Three.js archive animation, improved story interaction UI, and GitHub Pages deployment are implemented.
+
+## Deployment
+
+- Repository: `https://github.com/guangyuspace/glimmer-life-archive`
+- Public URL: `https://guangyuspace.github.io/glimmer-life-archive/`
+- Pages source: `main` branch, `/`
+- Initial deploy commit: `151084d6c1b4a3c3f974755db962300b3dde7571`
 
 ## Latest Completed Work
 
@@ -39,6 +46,8 @@
 - 新增 `web/qa-three-render.mjs`，用 headless Edge/CDP 驗證 Three canvas 非空、動畫 frame 增加、pointermove 有反應，並輸出手機/桌面 archive 截圖與手機 story 截圖。
 - 更新結尾文案，主角描述改為「作者的外公」，並將 CTA 文案改為「留下你的故事」。
 - 新增 `CONFIG.storySubmissionUrl` 與 `openStorySubmission()`，`留下你的故事` 會開新分頁到 `https://www.threads.net/@seruence_decipher`。
+- 新增 GitHub Pages 根入口 `index.html` 與 `.nojekyll`，根網址會跳到 `web/`。
+- 建立公開 GitHub repo `guangyuspace/glimmer-life-archive`，啟用 GitHub Pages。
 
 ## Important Modified Files
 
@@ -110,6 +119,16 @@
 - Result: Passed. Three canvas was nonblank, animation frames advanced, pointer movement updated Three.js state, story progress UI rendered after start, and screenshots were written to `docs/qa_three_mobile.png`, `docs/qa_three_desktop.png`, `docs/qa_story_mobile.png`.
 - Command: Headless Edge screenshot `390x844` to `D:\微光\docs\qa_archive_mobile.png`
 - Result: Passed. Archive background, title, orb, start button, status, and experience panel render without obvious overlap.
+- Command: `gh api repos/guangyuspace/glimmer-life-archive/pages/builds/latest`
+- Result: Passed. GitHub Pages build `1067166868` status was `built`, commit `151084d6c1b4a3c3f974755db962300b3dde7571`.
+- Command: `Invoke-WebRequest https://guangyuspace.github.io/glimmer-life-archive/`
+- Result: HTTP 200.
+- Command: `Invoke-WebRequest https://guangyuspace.github.io/glimmer-life-archive/web/?qa=1&resetProgress=1`
+- Result: HTTP 200.
+- Command: `Invoke-WebRequest https://guangyuspace.github.io/glimmer-life-archive/stories/stories.json`
+- Result: HTTP 200.
+- Command: `Invoke-WebRequest https://guangyuspace.github.io/glimmer-life-archive/art/ui/archive_opening.png`
+- Result: HTTP 200.
 - Browser automation: Playwright was previously blocked, but headless Edge/CDP QA now works for archive/story visual smoke checks.
 
 ## Known Risks
@@ -123,4 +142,4 @@
 
 ## Next Safest Task
 
-Run manual interaction QA at `http://127.0.0.1:5173/web/?qa=1&resetProgress=1`: complete the story, confirm ending copy, click `留下你的故事` opens Threads, test tap/hold/wipe on a real phone, and review all 18 panels for emotional/art continuity.
+Run manual interaction QA on `https://guangyuspace.github.io/glimmer-life-archive/`: complete the story, confirm ending copy, click `留下你的故事` opens Threads, test tap/hold/wipe on a real phone, and review all 18 panels for emotional/art continuity.
